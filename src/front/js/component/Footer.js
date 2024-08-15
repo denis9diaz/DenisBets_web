@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/footer.css";
 
-export const Footer = () => (
+const Footer = () => (
     <footer className="footer mt-auto py-3 text-center">
         <div className="container">
             <div className="row">
@@ -48,3 +48,5 @@ export const Footer = () => (
         </div>
     </footer>
 );
+
+export default Footer

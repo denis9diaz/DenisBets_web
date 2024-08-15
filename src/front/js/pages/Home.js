@@ -5,7 +5,7 @@ import "../../styles/home.css";
 
 const Home = () => {
 	return (
-		<div className="home text-center mt-5">
+		<div className="home text-center">
 			<HeroSection />
 			<ProblemaSolucion />
 		</div>

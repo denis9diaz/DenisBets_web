@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import Logo from "/src/front/img/logo.png"
 
-export const Navbar = () => {
+const Navbar = () => {
 	return (
 		<nav className="navbar navbar-expand-lg bg-body-tertiary">
 			<div className="container-fluid">
@@ -26,7 +26,7 @@ export const Navbar = () => {
 						</li>
 						<li className="nav-item">
 							<Link className="nav-link" to="/consejos">
-								Consejos
+								Mi método
 							</Link>
 						</li>
 						<li className="nav-item">
@@ -36,7 +36,7 @@ export const Navbar = () => {
 						</li>
 						<li className="nav-item">
 							<Link className="nav-link" to="/mihistoria">
-								Mi historia
+								Sobre mi
 							</Link>
 						</li>
 						<li className="nav-item">
@@ -44,51 +44,11 @@ export const Navbar = () => {
 								Escríbeme
 							</Link>
 						</li>
-						<li className="nav-item dropdown">
-							<Link
-								className="nav-link dropdown-toggle"
-								to="#"
-								role="button"
-								data-bs-toggle="dropdown"
-								aria-expanded="false"
-							>
-								Dropdown
-							</Link>
-							<ul className="dropdown-menu">
-								<li>
-									<Link className="dropdown-item" to="#">
-										Action
-									</Link>
-								</li>
-								<li>
-									<Link className="dropdown-item" to="#">
-										Another action
-									</Link>
-								</li>
-								<li>
-									<hr className="dropdown-divider" />
-								</li>
-								<li>
-									<Link className="dropdown-item" to="#">
-										Something else here
-									</Link>
-								</li>
-							</ul>
-						</li>
 					</ul>
-					<form className="d-flex" role="search">
-						<input
-							className="form-control me-2"
-							type="search"
-							placeholder="Search"
-							aria-label="Search"
-						/>
-						<button className="btn btn-outline-success" type="submit">
-							Search
-						</button>
-					</form>
 				</div>
 			</div>
 		</nav>
 	);
 };
+
+export default Navbar
