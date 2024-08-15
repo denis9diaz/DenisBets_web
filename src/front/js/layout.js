@@ -8,7 +8,7 @@ import Home from "./pages/Home";
 import Servicios from "./pages/Servicios";
 import Redes from "./pages/Redes";
 import MiHistoria from "./pages/MiHistoria";
-import Consejos from "./pages/Consejos";
+import MiMetodo from "./pages/MiMetodo";
 import Contacto from "./pages/Contacto";
 import HeroSection from "./pages/HeroSection";
 import ProblemaSolucion from "./pages/ProblemaSolucion";
@@ -31,7 +31,7 @@ const Layout = () => {
                         <Route element={<Servicios />} path="/servicios" />
                         <Route element={<Redes />} path="/redes" />
                         <Route element={<MiHistoria />} path="/mihistoria" />
-                        <Route element={<Consejos />} path="/consejos" />
+                        <Route element={<MiMetodo />} path="/mimetodo" />
                         <Route element={<Contacto />} path="/contacto" />
                         <Route element={<HeroSection />} path="/hero" />
                         <Route element={<ProblemaSolucion />} path="/hero2" />

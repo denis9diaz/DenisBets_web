@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/footer.css";
 
 const Footer = () => (
@@ -8,23 +9,22 @@ const Footer = () => (
                 <div className="col-md-4 text-left">
                     <h5>Enlaces Rápidos</h5>
                     <ul className="list-unstyled">
-                        <li><a href="#home">Servicios</a></li>
-                        <li><a href="#contact">Consejos</a></li>
-                        <li><a href="#about">Mi historia</a></li>
+                        <li><Link to="/servicios">Servicios</Link></li>
+                        <li><Link to="/mimetodo">Mi método</Link></li>
+                        <li><Link to="/mihistoria">Mi historia</Link></li>
                     </ul>
                 </div>
                 <div className="col-md-4 text-left">
                     <h5>Sígueme</h5>
                     <div className="social-icons">
-                        <a href="https://t.me/denisbets" target="_blank" rel="noopener noreferrer">
+                        <Link to="https://t.me/denisbets"></Link>
                             <i className="fab fa-telegram"></i> Mi Canal de Telegram
-                        </a>
-                        <a href="https://instagram.com/denisbets" target="_blank" rel="noopener noreferrer">
+                        
+                        <Link to="https://instagram.com/denisbets"></Link>
                             <i className="fab fa-instagram"></i> Mi Instagram
-                        </a>
-                        <a href="https://tiktok.com/@denisbets" target="_blank" rel="noopener noreferrer">
+
+                        <Link to="https://tiktok.com/@denisbets"></Link>
                             <i className="fab fa-tiktok"></i> Mi TikTok
-                        </a>
                     </div>
                 </div>
                 <div className="col-md-4 text-left">

@@ -1,12 +1,12 @@
 import React from "react";
-import "../../styles/consejos.css";
+import "../../styles/mimetodo.css";
 
-const Consejos = () => {
+const MiMetodo = () => {
     return (
         <div className="consejos text-center mt-5">
-            <h1>Consejos</h1>
+            <h1>Mi método</h1>
         </div>
     )
 }
 
-export default Consejos
+export default MiMetodo
