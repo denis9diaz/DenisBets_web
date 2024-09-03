@@ -12,6 +12,7 @@ import MiMetodo from "./pages/MiMetodo";
 import Contacto from "./pages/Contacto";
 import HeroSection from "./pages/HeroSection";
 import ProblemaSolucion from "./pages/ProblemaSolucion";
+import Accion from "./pages/Accion";
 
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
@@ -35,6 +36,7 @@ const Layout = () => {
                         <Route element={<Contacto />} path="/contacto" />
                         <Route element={<HeroSection />} path="/hero" />
                         <Route element={<ProblemaSolucion />} path="/hero2" />
+                        <Route element={<Accion />} path="/accion" />
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>
                     <Footer />

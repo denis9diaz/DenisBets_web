@@ -13,7 +13,7 @@
 }
 
 .navbar a:hover, .navbar .nav-link:hover {
-    color: #5CE8A5;
+    color: #00ffa0;
 }
 
 .navbar-toggler-icon {
@@ -37,13 +37,13 @@
 .search .btn {
     background-color: transparent;
     color: whitesmoke;
-    border: 2px solid #5CE8A5;
+    border: 2px solid #00ffa0;
     box-shadow: 0 0 0 transparent;
     transition: all 0.3s ease;
 }
 
 .search .btn:hover {
-    background-color: #5CE8A5;
+    background-color: #00ffa0;
     color: whitesmoke;
     box-shadow: 0 4px 12px rgba(84, 194, 40, 0.5);
     transform: scale(1.05);
@@ -86,7 +86,7 @@
     height: 2px;
     bottom: -5px;
     left: 50%;
-    background-color: #5CE8A5;
+    background-color: #00ffa0;
     visibility: hidden;
     transition: all 0.3s ease-in-out;
 }
