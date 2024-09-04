@@ -1,3 +1,109 @@
-.consejos {
+.consejos-container {
     min-height: 100vh;
+    background: #1F86BC;
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.consejos-content {
+    max-width: 1000px;
+    background: #ffffff;
+    color: #000000;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin: 1rem 0;
+    color: #1F86BC;
+}
+
+.section-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+    margin-bottom: 1.8rem;
+}
+
+.steps-list,
+.summary-list {
+    text-align: left;
+    margin: 1rem 0;
+}
+
+.step-item,
+.summary-item {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}
+
+.final-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.cta-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #1F86BC;
+}
+
+.cta-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.cta-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1F86BC;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.cta-button:hover {
+    background-color: #004d7a;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.telegram-button {
+    background-color: #0088cc;
+}
+
+.services-button {
+    background-color: #00a859;
+}
+
+.final-para {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #1F86BC;
+    text-align: center;
 }

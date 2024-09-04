@@ -1,8 +1,19 @@
 .footer {
-    background-color: #1E3F94;
+    background: linear-gradient(to bottom, #1E3F94, #000000);
     color: #ffffff;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #ffffff;
+    z-index: 1;
 }
 
 .footer h5 {
@@ -11,15 +22,18 @@
     font-weight: bold;
 }
 
-.footer p,
+.footer p {
+    color: #dfdfdf;
+}
+
 .footer a {
-    color: #c0c0c0;
+    color: #dddddd;
     text-decoration: none;
 }
 
 .footer a:hover {
-    color: #ffffff;
-    text-decoration: underline;
+    color: #00ffa0;
+    text-decoration: none;
 }
 
 .footer .list-unstyled {
@@ -32,11 +46,13 @@
 }
 
 .footer .text-muted {
-    color: #9099a1 !important;
+    color: #bec5ca !important;
 }
 
 .footer .container {
     max-width: 960px;
+    position: relative;
+    z-index: 2;
 }
 
 .footer .text-left {

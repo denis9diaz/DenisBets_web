@@ -1,3 +1,91 @@
 .mihistoria {
     min-height: 100vh;
+    background: #1F86BC;
+    color: whitesmoke;
+    padding: 20vh 2rem;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mihistoria-content {
+    max-width: 1000px;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title-mihistoria {
+    font-size: 2.5rem;
+    color: #1F86BC;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.intro {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.early-days,
+.early-struggles,
+.mistakes,
+.learning,
+.turning-point,
+.advancements,
+.current-status,
+.call-to-action {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.cta-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1F86BC;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.cta-button:hover {
+    background-color: #004d7a;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.telegram-button {
+    background-color: #0088cc;
+}
+
+.services-button {
+    background-color: #00a859;
+}
+
+.final-para {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    color: #7ec9f1;
+    text-align: center;
 }

@@ -1,3 +1,96 @@
 .servicios {
     min-height: 100vh;
+    background: #1F86BC;
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.row {
+    justify-content: center;
+}
+
+.card-free {
+    background: #00ffa0;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.5vmin solid #05060f;
+    box-shadow: 0.4rem 0.4rem #05060f;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-free .pricing-block-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.pricing-plan {
+    color: #05060f;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.price-value {
+    display: flex;
+    color: #05060f;
+    font-size: 1.8rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.pricing-note {
+    opacity: 0.8;
+}
+
+.check-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+}
+
+.check-list-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.button-want {
+    background-color: #664eff;
+    color: #ffffff;
+    border: 2px solid #05060f;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.button-want:hover {
+    background-color: #1f6acb;
+    transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+    .card-free {
+        width: 100%;
+        margin: 0;
+    }
 }

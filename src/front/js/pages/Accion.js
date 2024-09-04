@@ -1,16 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../../styles/accion.css";
 
 const Accion = () => {
     return (
-        <div className="redes text-center mt-5">
-             {/*
+        <div className="accion text-center mt-5">
+            <Link to="/servicios"><button className="styled-button">
+                Empezar ahora
+            </button></Link>
+        </div>
+    );
+};
+
+export default Accion;
+
+{/*
             <button className="button">
                 <div className="blob1"></div>
                 <div className="blob2"></div>
                 <div className="inner">Empezar ahora</div>
             </button>
-            */}
+            
             <div className="card-free">
                 <div className="pricing-block-content">
                     <p className="pricing-plan">Prueba gratuita (1 mes)</p>
@@ -116,8 +126,4 @@ const Accion = () => {
                     </ul>
                 </div>
             </div>
-        </div>
-    );
-};
-
-export default Accion;
+            */}

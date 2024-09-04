@@ -1,3 +1,68 @@
 .redes {
     min-height: 100vh;
+    background: #1F86BC;
+    padding-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
+
+.cards-container-redes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card-redes {
+    background: #ffffff;
+    color: #1F86BC;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-redes:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card-title-redes {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.card-text-redes {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.card-button-redes {
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1F86BC;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.card-button-redes:hover {
+    background-color: #00ffa0;
+    color: #1479af;
+    transform: scale(1.05);
+}
+
+.card-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #1F86BC;
 }
