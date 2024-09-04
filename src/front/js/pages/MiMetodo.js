@@ -6,6 +6,7 @@ const MiMetodo = () => {
     return (
         <div className="consejos-container">
             <div className="consejos-content">
+            <h1 className="title-mimetodo">Mi Método</h1>
                 <h2 className="section-title">¿Sabías que apostar sin un método es como jugar a la ruleta?</h2>
                 <p className="section-text">
                     Muchos de nosotros hemos estado en la misma situación: apostando basado en instintos, sensaciones o “lo que debería pasar”. Sin embargo, tanto tú como yo en ese momento estábamos equivocados. Las casas de apuestas establecen las cuotas con gran precisión, lo que hace que a largo plazo sea prácticamente imposible ser rentable si solo confiamos en nuestro instinto.

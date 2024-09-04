@@ -59,7 +59,7 @@ const MiHistoria = () => {
                 </div>
 
                 <p className="final-para">
-                    ¡Te espero pronto!
+                    Te espero. ¡Nos vemos pronto!
                 </p>
             </div>
         </div>

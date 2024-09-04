@@ -70,3 +70,9 @@
     margin-right: 8px;
     font-size: 20px;
 }
+
+.image-logo-footer {
+    height: 20vh;
+    width: 20vh;
+    border-radius: 50%;
+}

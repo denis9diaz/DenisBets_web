@@ -19,6 +19,13 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.title-mimetodo {
+    font-size: 2.5rem;
+    color: #0d415e;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
 .section-title {
     font-size: 1.8rem;
     margin: 1rem 0;
@@ -97,7 +104,7 @@
 }
 
 .services-button {
-    background-color: #00a859;
+    background-color: #0bc480;
 }
 
 .final-para {
