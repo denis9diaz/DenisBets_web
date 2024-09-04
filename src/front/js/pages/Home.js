@@ -1,7 +1,8 @@
 import React from "react";
-import Accion from "./Accion";
 import HeroSection from "./HeroSection";
 import ProblemaSolucion from "./ProblemaSolucion";
+import Accion from "./Accion";
+import Motivacion from "./Motivacion";
 import "../../styles/home.css";
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
 			<HeroSection />
 			<ProblemaSolucion />
 			<Accion />
+			<Motivacion />
 		</div>
 	);
 };
