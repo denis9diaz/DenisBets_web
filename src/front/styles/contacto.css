@@ -1,0 +1,10 @@
+.contacto {
+    min-height: 100vh;
+    background: #1F86BC;
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}

@@ -1,0 +1,15 @@
+.hero {
+    padding-top: 15vh;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+}
+
+.title-hero {
+    font-size: 5vh;
+}
+
+.subtitle-hero {
+    padding-top: 3vh;
+    font-size: 3vh;
+    color: #00ffa0;
+}
