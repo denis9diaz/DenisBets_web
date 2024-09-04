@@ -1,12 +1,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../../styles/footer.css";
+import Logo from "/src/front/img/logo.png"
 
 const Footer = () => (
     <footer className="footer mt-auto py-5 text-center">
         <div className="container">
             <div className="row">
-                <div className="col-md-4 text-left">
+                <div className="col-md-3 text-left">
+                    <img src={Logo} alt="logo" className="image-logo-footer" />
+                </div>
+                <div className="col-md-3 text-left">
                     <h5>Enlaces Rápidos</h5>
                     <ul className="list-unstyled">
                         <li><Link to="/servicios">Servicios</Link></li>
@@ -14,7 +18,7 @@ const Footer = () => (
                         <li><Link to="/mihistoria">Mi historia</Link></li>
                     </ul>
                 </div>
-                <div className="col-md-4 text-left">
+                <div className="col-md-3 text-left">
                     <h5>Sígueme</h5>
                     <div className="social-icons">
                         <a
@@ -40,10 +44,10 @@ const Footer = () => (
                         </a>
                     </div>
                 </div>
-                <div className="col-md-4 text-left">
+                <div className="col-md-3 text-left">
                     <h5>Contacto</h5>
                     <p>
-                        <i className="fas fa-envelope"></i> contacto@denisbets.com
+                        <i className="fas fa-envelope"></i> denisbets.info@gmail.com
                     </p>
                 </div>
             </div>

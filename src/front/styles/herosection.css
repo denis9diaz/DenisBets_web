@@ -1,15 +1,29 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .hero {
     padding-top: 15vh;
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
+    animation: fadeIn 2s ease-in-out;
 }
 
 .title-hero {
     font-size: 5vh;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 0.5s forwards;
 }
 
 .subtitle-hero {
     padding-top: 3vh;
     font-size: 3vh;
     color: #00ffa0;
+    opacity: 0;
+    animation: fadeIn 2s ease-in-out 1s forwards;
 }

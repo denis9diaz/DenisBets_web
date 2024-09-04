@@ -94,3 +94,39 @@
         margin: 0;
     }
 }
+
+/* servicios.css */
+
+.servicios {
+    /* Add any required styles */
+}
+
+.card-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+.card-fade-in:nth-of-type(1) {
+    animation-delay: 0.5s;
+}
+
+.card-fade-in:nth-of-type(2) {
+    animation-delay: 1s;
+}
+
+.card-fade-in:nth-of-type(3) {
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

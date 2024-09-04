@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "../../styles/mihistoria.css";
 
 const MiHistoria = () => {
+    const [show, setShow] = useState(false);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShow(true);
+        }, 100);
+        return () => clearTimeout(timer);
+    }, []);
+
     return (
-        <div className="mihistoria">
-            <div className="mihistoria-content">
+        <div className={`mihistoria ${show ? 'fade-in' : ''}`}>
+            <div className={`mihistoria-content ${show ? 'slide-in' : ''}`}>
                 <h1 className="title-mihistoria">Mi Historia</h1>
 
                 <p className="intro">
@@ -59,7 +68,7 @@ const MiHistoria = () => {
                 </div>
 
                 <p className="final-para">
-                    ¡Te espero pronto!
+                    Te espero. ¡Nos vemos pronto!
                 </p>
             </div>
         </div>
