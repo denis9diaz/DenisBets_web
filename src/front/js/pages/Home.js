@@ -3,17 +3,31 @@ import HeroSection from "./HeroSection";
 import ProblemaSolucion from "./ProblemaSolucion";
 import Accion from "./Accion";
 import Motivacion from "./Motivacion";
-import "../../styles/home.css";
+import fondo from "/src/front/img/fondo.jpg";
 
 const Home = () => {
-	return (
-		<div className="home text-center">
-			<HeroSection />
-			<ProblemaSolucion />
-			<Accion />
-			<Motivacion />
-		</div>
-	);
+  const homeStyle = {
+    minHeight: "100vh",
+    backgroundImage: `url(${fondo})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    display: "flex",
+    flexDirection: "column",
+    alignItems: "center",
+    margin: 0,
+    paddingTop: 0,
+    textAlign: "center",
+  };
+
+  return (
+    <div style={homeStyle}>
+      <HeroSection />
+      <ProblemaSolucion />
+      <Accion />
+      <Motivacion />
+    </div>
+  );
 };
 
-export default Home
+export default Home;

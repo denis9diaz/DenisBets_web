@@ -1,6 +1,6 @@
 .redes {
     min-height: 100vh;
-    background: #1F86BC;
+    background: #01A2F6;
     padding-top: 20vh;
     display: flex;
     flex-direction: column;
@@ -49,9 +49,9 @@
     font-size: 1rem;
     font-weight: bold;
     color: #ecf5fa;
-    background-color: #0bc480;
+    background: linear-gradient(45deg, #0bc480, #049b64);
     padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);

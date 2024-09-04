@@ -104,6 +104,14 @@ const Servicios = () => {
                         </div>
                     ))}
                 </div>
+                <div className="row justify-content mt-5">
+                    <p className="parrafo-servicios">
+                        Si contratas el servicio mensual o el anual, al realizar el pago serás añadido a un canal de Telegram donde publicaré los pronósticos.
+                    </p>
+                    <p className="parrafo-servicios">
+                        Si contratas el servicio diario, te llegará un enlace donde estarán unicamente los pronósticos que hayas contratado.
+                    </p>
+                </div>
             </div>
         </div>
     );
