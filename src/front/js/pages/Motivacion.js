@@ -13,7 +13,7 @@ const Motivacion = () => {
                         Soy <strong>Denis Díaz</strong>, y estoy aquí para ayudarte a conseguir <strong>ser rentable como apostador</strong>.
                     </p>
                     <p className="parrafo-descripcion2">
-                        Conoce más sobre <strong>mi método</strong> o sobre <strong>mi historia</strong>.
+                        Conoce más sobre <strong>mi método</strong> y sobre <strong>mi historia</strong>.
                     </p>
                     <div className="button-container">
                         <Link to="/mimetodo"><button className="card-button-redes">Mi método</button></Link>

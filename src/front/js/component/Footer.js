@@ -46,7 +46,7 @@ const Footer = () => (
                 </div>
                 <div className="col-md-3 text-left">
                     <h5>Contacto</h5>
-                    <p>
+                    <p className="contact-item">
                         <i className="fas fa-envelope"></i> denisbets.info@gmail.com
                     </p>
                 </div>

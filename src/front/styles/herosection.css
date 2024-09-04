@@ -24,7 +24,7 @@
 .subtitle-hero {
     padding-top: 3vh;
     font-size: 3vh;
-    color: #00ffa0;
+    color: #6cf8c5;
     opacity: 0;
     animation: fadeIn 2s ease-in-out 1s forwards;
 }

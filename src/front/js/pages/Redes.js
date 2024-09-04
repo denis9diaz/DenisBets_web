@@ -11,7 +11,7 @@ const Redes = () => {
                     </div>
                     <h2 className="card-title-redes">Canal de Telegram</h2>
                     <p className="card-text-redes">
-                        Únete a mi canal gratuito de Telegram donde regalo varios pronósticos gratuitos semanalmente.
+                        Únete a mi canal gratuito de Telegram donde regalo varios pronósticos semanalmente sin ningún coste.
                     </p>
                     <a 
                         href="https://t.me/mi_canal" 
@@ -45,7 +45,7 @@ const Redes = () => {
                     </div>
                     <h2 className="card-title-redes">Mi TikTok</h2>
                     <p className="card-text-redes">
-                        Descubre mis videos en TikTok para ver tips rápidos y contenido interesante sobre apuestas deportivas.
+                        Descubre mis videos en TikTok para ver tips rápidos y contenido interesante sobre los equipos más rentables en apuestas deportivas.
                     </p>
                     <a 
                         href="https://tiktok.com/@mi_perfil" 

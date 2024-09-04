@@ -15,15 +15,13 @@ const ProblemaSolucion = () => {
     return (
         <div className="problema-solucion-container">
             <div className="row justify-content-center">
-                <div className="col-md-4">
-                    <div className="card">
-                        <FontAwesomeIcon icon={faFrown} className="icon red-icon" />
-                        <h2 className="card-title">¿Cansado de perder dinero en tus apuestas?</h2>
-                        <button className="toggle-button" onClick={() => toggleText(0)}>
-                            {showText[0] ? "Ver menos" : "Ver por qué"}
-                        </button>
-                        {showText[0] && (
-                            <div className="card-text">
+                {[
+                    {
+                        icon: faFrown,
+                        title: "¿Cansado de perder dinero en tus apuestas?",
+                        buttonText: ["Ver menos", "Ver por qué"],
+                        text: (
+                            <>
                                 <p>
                                     Es frustrante, ¿verdad? Pasas horas analizando estadísticas, revisando las últimas noticias de los equipos y jugadores, e incluso sigues los consejos de diferentes expertos.
                                 </p>
@@ -33,19 +31,16 @@ const ProblemaSolucion = () => {
                                 <p>
                                     Esto deja una sensación de impotencia y de pérdida.
                                 </p>
-                            </div>
-                        )}
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card">
-                        <FontAwesomeIcon icon={faExclamationTriangle} className="icon yellow-icon" />
-                        <h2 className="card-title">Las consecuencias de no tener una estrategia sólida</h2>
-                        <button className="toggle-button" onClick={() => toggleText(1)}>
-                            {showText[1] ? "Ver menos" : "Ver consecuencias"}
-                        </button>
-                        {showText[1] && (
-                            <div className="card-text">
+                            </>
+                        ),
+                        iconClass: "red-icon"
+                    },
+                    {
+                        icon: faExclamationTriangle,
+                        title: "Las consecuencias de no tener una estrategia sólida",
+                        buttonText: ["Ver menos", "Ver consecuencias"],
+                        text: (
+                            <>
                                 <p>
                                     Si continúas apostando sin un plan bien estructurado, es probable que sigas viendo cómo tus fondos disminuyen semana tras semana.
                                 </p>
@@ -55,19 +50,16 @@ const ProblemaSolucion = () => {
                                 <p>
                                     Al final, podrías sentirte tentado a abandonar por completo, perdiendo la oportunidad de hacer de las apuestas deportivas una actividad rentable y emocionante.
                                 </p>
-                            </div>
-                        )}
-                    </div>
-                </div>
-                <div className="col-md-4">
-                    <div className="card">
-                        <FontAwesomeIcon icon={faCheckCircle} className="icon green-icon" />
-                        <h2 className="card-title">La solución que transformará tu forma de apostar</h2>
-                        <button className="toggle-button" onClick={() => toggleText(2)}>
-                            {showText[2] ? "Ver menos" : "Ver solución"}
-                        </button>
-                        {showText[2] && (
-                            <div className="card-text">
+                            </>
+                        ),
+                        iconClass: "yellow-icon"
+                    },
+                    {
+                        icon: faCheckCircle,
+                        title: "La solución que transformará tu forma de apostar",
+                        buttonText: ["Ver menos", "Ver solución"],
+                        text: (
+                            <>
                                 <p>
                                     Imagina tener acceso a pronósticos basados en análisis estadísticos profundos y estrategias comprobadas que te guíen en cada apuesta que realices. No más suposiciones, no más pérdidas constantes.
                                 </p>
@@ -77,13 +69,25 @@ const ProblemaSolucion = () => {
                                 <p>
                                     Aumentarás tus probabilidades de ganar, y apostarás con la misma confianza que apuesto yo, sabiendo que puedes perder apuestas (y las perderás) pero que a final de mes estarás en positivo.
                                 </p>
-                            </div>
-                        )}
+                            </>
+                        ),
+                        iconClass: "green-icon"
+                    }
+                ].map((item, index) => (
+                    <div key={index} className="col-md-4">
+                        <div className={`card card-${index}`}>
+                            <FontAwesomeIcon icon={item.icon} className={`icon ${item.iconClass}`} />
+                            <h2 className="card-title">{item.title}</h2>
+                            <button className="toggle-button" onClick={() => toggleText(index)}>
+                                {showText[index] ? item.buttonText[0] : item.buttonText[1]}
+                            </button>
+                            {showText[index] && <div className="card-text">{item.text}</div>}
+                        </div>
                     </div>
-                </div>
+                ))}
             </div>
         </div>
     );
-}
+};
 
 export default ProblemaSolucion;

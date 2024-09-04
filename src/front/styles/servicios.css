@@ -1,6 +1,6 @@
 .servicios {
     min-height: 100vh;
-    background: #1F86BC;
+    background: #01A2F6;
     padding-top: 20vh;
     display: flex;
     justify-content: center;
@@ -71,13 +71,13 @@
 }
 
 .button-want {
-    background-color: #664eff;
+    background: linear-gradient(45deg, #7c68fc, #533eda);
     color: #ffffff;
     border: 2px solid #05060f;
     padding: 0.75rem 1.25rem;
     font-size: 1.2rem;
     font-weight: bold;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     cursor: pointer;
     margin-top: 1rem;
     transition: background-color 0.3s ease, transform 0.2s ease;
@@ -93,12 +93,6 @@
         width: 100%;
         margin: 0;
     }
-}
-
-/* servicios.css */
-
-.servicios {
-    /* Add any required styles */
 }
 
 .card-fade-in {
@@ -130,3 +124,7 @@
     }
 }
 
+.parrafo-servicios {
+    color: whitesmoke;
+    font-size: 1.1rem;
+}

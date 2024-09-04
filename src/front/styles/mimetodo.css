@@ -1,6 +1,6 @@
 .consejos-container {
     min-height: 100vh;
-    background: #1F86BC;
+    background: #01A2F6;
     padding-top: 20vh;
     padding-bottom: 15vh;
     display: flex;
@@ -74,7 +74,8 @@
 .cta-buttons {
     display: flex;
     gap: 1rem;
-    margin-top: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .cta-button {
@@ -83,7 +84,7 @@
     color: #ffffff;
     background-color: #1F86BC;
     padding: 0.75rem 1.5rem;
-    border-radius: 0.5rem;
+    border-radius: 2rem;
     text-align: center;
     text-decoration: none;
     transition: background-color 0.3s ease, transform 0.2s ease;
@@ -101,10 +102,11 @@
 
 .telegram-button {
     background-color: #0088cc;
+    background: linear-gradient(45deg, #3aa3d8, #0088cc);
 }
 
 .services-button {
-    background-color: #0bc480;
+    background: linear-gradient(45deg, #0dbb7b, #049b64);
 }
 
 .final-para {
