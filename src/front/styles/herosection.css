@@ -8,9 +8,10 @@
 }
 
 .hero {
-    padding-top: 15vh;
+    padding-top: 20vh;
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
+    text-align: center;
     animation: fadeIn 2s ease-in-out;
 }
 
