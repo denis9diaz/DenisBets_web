@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/servicios.css";
 
@@ -36,13 +36,27 @@ const services = [
 ];
 
 const Servicios = () => {
+    const [show, setShow] = useState(false);
+
+    useEffect(() => {
+        const timer = setTimeout(() => {
+            setShow(true);
+        }, 100);
+        return () => clearTimeout(timer);
+    }, []);
+
     return (
         <div className="servicios text-center">
             <div className="container">
                 <div className="row justify-content-center">
                     {services.map((service, index) => (
-                        <div className="col-md-4 col-sm-6 mb-4 d-flex" key={index}>
-                            <div className="card-free card h-100">
+                        <div
+                            className={`col-md-4 col-sm-6 mb-4 d-flex ${
+                                show ? 'show' : ''
+                            }`}
+                            key={index}
+                        >
+                            <div className={`card-free card h-100 card-fade-in`}>
                                 <div className="pricing-block-content">
                                     <p className="pricing-plan">{service.plan}</p>
                                     <div className="price-value">
@@ -52,7 +66,6 @@ const Servicios = () => {
                                     <ul className="check-list" role="list">
                                         {service.benefits.map((benefit, idx) => (
                                             <li className="check-list-item" key={idx}>
-                                                {/* SVG para el icono de verificación */}
                                                 <svg
                                                     version="1.0"
                                                     preserveAspectRatio="xMidYMid meet"

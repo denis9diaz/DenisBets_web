@@ -69,3 +69,40 @@
     margin-bottom: 1rem;
     color: #19638b;
 }
+
+@keyframes fadeInSlide {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card-redes {
+    background: #ffffff;
+    color: #1F86BC;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    width: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInSlide 1s ease-out forwards;
+}
+
+.card-redes:nth-of-type(1) {
+    animation-delay: 0.5s;
+}
+
+.card-redes:nth-of-type(2) {
+    animation-delay: 1s;
+}
+
+.card-redes:nth-of-type(3) {
+    animation-delay: 1.5s;
+}
