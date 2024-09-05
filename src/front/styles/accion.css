@@ -1,10 +1,14 @@
+.accion {
+  padding-bottom: 5vh;
+}
+
 .styled-button {
   position: relative;
   padding: 1rem 2rem;
   font-size: 1.3rem;
   font-weight: bold;
   color: #171717;
-  background: linear-gradient(45deg, #8ff1cd, #00FFA0);
+  background: linear-gradient(45deg, #a6f8da, #03e08f);
   border-radius: 9999px;
   cursor: pointer;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 10px 20px rgba(0, 0, 0, 0.3);

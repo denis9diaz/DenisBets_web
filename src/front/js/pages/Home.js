@@ -28,6 +28,7 @@ const Home = () => {
       <Accion />
       <Motivacion />
       <Encontraras />
+      <Accion />
     </div>
   );
 };

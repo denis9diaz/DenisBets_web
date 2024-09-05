@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "../../styles/servicios.css";
 
 const services = [
@@ -56,16 +55,16 @@ const Servicios = () => {
                             }`}
                             key={index}
                         >
-                            <div className={`card-free card h-100 card-fade-in`}>
+                            <div className={`servicios-card h-100 servicios-fade-in`}>
                                 <div className="pricing-block-content">
-                                    <p className="pricing-plan">{service.plan}</p>
-                                    <div className="price-value">
+                                    <p className="servicios-plan">{service.plan}</p>
+                                    <div className="servicios-price">
                                         <p className="price-number">{service.price}</p>
                                     </div>
-                                    <div className="pricing-note">{service.afterPrice}</div>
-                                    <ul className="check-list" role="list">
+                                    <div className="servicios-note">{service.afterPrice}</div>
+                                    <ul className="servicios-check-list" role="list">
                                         {service.benefits.map((benefit, idx) => (
-                                            <li className="check-list-item" key={idx}>
+                                            <li className="servicios-check-list-item" key={idx}>
                                                 <svg
                                                     version="1.0"
                                                     preserveAspectRatio="xMidYMid meet"
@@ -98,18 +97,18 @@ const Servicios = () => {
                                             </li>
                                         ))}
                                     </ul>
-                                    <button className="button-want">¡Lo quiero!</button>
+                                    <button className="servicios-button-want">¡Lo quiero!</button>
                                 </div>
                             </div>
                         </div>
                     ))}
                 </div>
-                <div className="row justify-content mt-5">
+                <div className="row justify-content mt-5 div-parrafos">
                     <p className="parrafo-servicios">
                         Si contratas el servicio mensual o el anual, al realizar el pago serás añadido a un canal de Telegram donde publicaré los pronósticos.
                     </p>
                     <p className="parrafo-servicios">
-                        Si contratas el servicio diario, te llegará un enlace donde estarán unicamente los pronósticos que hayas contratado.
+                        Si contratas el servicio diario, te llegará un enlace donde estarán únicamente los pronósticos que hayas contratado.
                     </p>
                 </div>
             </div>
