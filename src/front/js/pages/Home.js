@@ -3,6 +3,7 @@ import HeroSection from "./HeroSection";
 import ProblemaSolucion from "./ProblemaSolucion";
 import Accion from "./Accion";
 import Motivacion from "./Motivacion";
+import Encontraras from "./Encontraras";
 import fondo from "/src/front/img/fondo.jpg";
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
       <ProblemaSolucion />
       <Accion />
       <Motivacion />
+      <Encontraras />
     </div>
   );
 };
