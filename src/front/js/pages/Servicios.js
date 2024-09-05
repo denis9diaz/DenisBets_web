@@ -24,7 +24,7 @@ const services = [
     },
     {
         plan: "Servicio diario",
-        price: "2,00€/pronóstico",
+        price: "1,50€/pronóstico",
         afterPrice: "Opción para probar mis servicios días sueltos",
         benefits: [
             "Acceso a los pronósticos que compres",

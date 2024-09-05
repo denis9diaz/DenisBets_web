@@ -37,9 +37,9 @@ const MiHistoria = () => {
                     Hoy en día, soy un apostador rentable, gracias a mi método y análisis de estadística. A lo largo de los años, he perfeccionado mi estrategia y aprendido de mis errores.
                 </p>
 
-                <h2 className="cta-title slide-in-bottom">¿Te gustaría que te ayude a mejorar tus apuestas?</h2>
+                <h2 className="cta-title slide-in-bottom">¿Te ayudo?</h2>
                 <p className="cta-text slide-in-bottom">
-                    Únete a mi canal de Telegram para recibir pronósticos gratuitos cada semana o contrata mis servicios para acceder a todos mis pronósticos.
+                    Si te sientes identificado con lo que he contado y quieres cambiar tu situación,  <strong>puedes seguirme en mi canal gratuito de Telegram,</strong> donde subo varios pronósticos semanales, o <strong>contratar mis servicios</strong> para tener acceso a <strong>todos</strong> mis pronósticos. También puedes seguirme en Instagram y TikTok, donde doy consejos que te ayudarán a ser rentable en las apuestas deportivas.
                 </p>
                 <div className="cta-buttons slide-in-bottom">
                     <a
@@ -62,6 +62,9 @@ const MiHistoria = () => {
                         Mi Instagram <i className="fab fa-instagram"></i>
                     </a>
                 </div>
+                <p className="final-para slide-in-bottom">
+                    Te espero. ¡Nos vemos pronto!
+                </p>
             </div>
         </div>
     );
