@@ -11,6 +11,19 @@
     padding: 2vh 5%;
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
+    opacity: 0; /* Inicia oculto */
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+    transform: translateY(20px);
+}
+
+.motivacion.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.motivacion.hidden {
+    opacity: 0;
+    transform: translateY(20px);
 }
 
 .content-container {
@@ -72,7 +85,7 @@
     color: #fff;
     padding: 0.5rem 1rem;
     cursor: pointer;
-    font-size: 1rem;
+    font-size: 1.2rem !important;
 }
 
 .card-button-redes:hover {

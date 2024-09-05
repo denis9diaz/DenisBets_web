@@ -18,7 +18,7 @@ const ProblemaSolucion = () => {
                 {[
                     {
                         icon: faFrown,
-                        title: "¿Cansado de perder dinero en tus apuestas?",
+                        title: "¿Cansado de perder dinero en tus apuestas deportivas?",
                         buttonText: ["Ver menos", "Ver por qué"],
                         text: (
                             <>
@@ -74,8 +74,8 @@ const ProblemaSolucion = () => {
                         iconClass: "green-icon"
                     }
                 ].map((item, index) => (
-                    <div key={index} className="col-md-4">
-                        <div className={`card card-${index}`}>
+                    <div key={index} className="col-md-6 col-lg-4 mb-4">
+                        <div className={`card custom-card ${showText[index] ? "expanded" : ""}`}>
                             <FontAwesomeIcon icon={item.icon} className={`icon ${item.iconClass}`} />
                             <h2 className="card-title">{item.title}</h2>
                             <button className="toggle-button" onClick={() => toggleText(index)}>

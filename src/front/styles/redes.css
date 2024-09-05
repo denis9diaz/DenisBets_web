@@ -2,6 +2,7 @@
     min-height: 100vh;
     background: #01A2F6;
     padding-top: 20vh;
+    padding-bottom: 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
