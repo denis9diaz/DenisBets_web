@@ -1,11 +1,42 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "../../styles/encontraras.css";
 import balon from "/src/front/img/balon.png";
 import bundes from "/src/front/img/bundes.jpeg";
 
 const Encontraras = () => {
+    const encontradasRef = useRef(null);
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const observer = new IntersectionObserver(
+            (entries) => {
+                entries.forEach((entry) => {
+                    if (entry.isIntersecting) {
+                        console.log("El componente Encontraras es visible en la pantalla");
+                        setIsVisible(true);
+                        observer.disconnect();
+                    }
+                });
+            },
+            { threshold: 0.1 }
+        );
+
+        if (encontradasRef.current) {
+            observer.observe(encontradasRef.current);
+        }
+
+        return () => {
+            if (encontradasRef.current) {
+                observer.unobserve(encontradasRef.current);
+            }
+        };
+    }, []);
+
     return (
-        <div className="encontraras-container d-flex align-items-center justify-content-center mt-5 mb-5">
+        <div
+            className={`encontraras-container d-flex align-items-center justify-content-center mt-5 mb-5 ${isVisible ? "visible" : "hidden"}`}
+            ref={encontradasRef}
+        >
             <div className="encontraras-text">
                 <h2 className="title-encontraras slide-in-bottom">¿Qué encontrarás si contratas mis servicios?</h2>
                 <ul className="encontraras-list slide-in-bottom">
