@@ -30,11 +30,11 @@ const MiHistoria = () => {
                 </p>
 
                 <p className="section-text slide-in-bottom">
-                    <strong>El cambio real llegó hace un año y medio.</strong> Descubrí que <strong>estudiando estadística y probabilidad avanzada,</strong> y eligiendo los partidos y los mercados correctos, <strong>la probabilidad de acierto aumentaba muchísimo.</strong> Por supuesto, además de la estadística y probabilidad, hay muchas más variables en el fútbol: las variables que podemos controlar, como el estado de forma de los jugadores, lesiones, el clima, etc.; y otras que no podemos controlar, como una tarjeta roja, un penalti fallado, la situación personal de un jugador en un día concreto, etc. Todo esto hace que el análisis sea solo una guía y por ello habrá rachas malas y buenas. Pero lo más importante es entender que con un análisis exhaustivo la probabilidad de éxito aumenta mucho.
+                    <strong>El cambio real llegó hace un año y medio.</strong> Descubrí que <strong>estudiando estadística y probabilidad avanzada,</strong> y eligiendo los partidos y los mercados correctos, <strong>la probabilidad de acierto aumentaba muchísimo.</strong> Por supuesto, además de la estadística y probabilidad, hay muchas más variables en el fútbol: las variables que podemos controlar, como el estado de forma de los jugadores, lesiones, el clima, etc.; y otras que no podemos controlar, como una tarjeta roja, un penalti fallado, la situación personal de un jugador en un día concreto, etc. Todo esto hará que falles apuestas por muy bien que hayas analizado. Aquí es donde entran en juego el uso del stake y el control de las emociones. Desde que controlo esto, me da igual fallar una apuesta porque sé que soy rentable y que, a fin de mes, voy a ganar dinero. No necesito recuperar si pierdo un día y controlo a la perfección las cantidades que apuesto para maximizar ganancias con cada acierto y minimizar las pérdidas con los fallos.
                 </p>
 
                 <p className="section-text slide-in-bottom">
-                    Hoy en día, soy un apostador rentable, gracias a mi método y análisis de estadística. A lo largo de los años, he perfeccionado mi estrategia y aprendido de mis errores.
+                    Todo esto es lo que he aprendido a manejar a la perfección y <strong>lo que me ha hecho estar en el 1% de apostadores rentables.</strong> Ahora quiero ayudar a la gente a ganar un dinero extra y, sobre todo, a que aprendan a apostar.
                 </p>
 
                 <h2 className="cta-title slide-in-bottom">¿Te ayudo?</h2>

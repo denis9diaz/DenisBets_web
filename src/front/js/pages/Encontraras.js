@@ -50,7 +50,7 @@ const Encontraras = () => {
                     </li>
                     <li className="list-item">
                         <img src={balon} alt="Balón de fútbol" className="icono-balon" />
-                        Te diré la cuota exacta a la que tienes que entrar.
+                        Te diré la cuota exacta a la que tienes que apostar.
                     </li>
                     <li className="list-item">
                         <img src={balon} alt="Balón de fútbol" className="icono-balon" />

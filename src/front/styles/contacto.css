@@ -1,6 +1,6 @@
 .contacto {
     min-height: 100vh;
-    background: #01A2F6;
+    background: linear-gradient(to bottom, #01A2F6, #1E3F94);
     padding-top: 20vh;
     display: flex;
     justify-content: center;
