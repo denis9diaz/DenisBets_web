@@ -14,6 +14,7 @@ import HeroSection from "./pages/HeroSection";
 import ProblemaSolucion from "./pages/ProblemaSolucion";
 import Accion from "./pages/Accion";
 import Motivacion from "./pages/Motivacion";
+import Encontraras from "./pages/Encontraras";
 
 import Navbar from "./component/Navbar";
 import Footer from "./component/Footer";
@@ -39,6 +40,7 @@ const Layout = () => {
                         <Route element={<ProblemaSolucion />} path="/hero2" />
                         <Route element={<Accion />} path="/accion" />
                         <Route element={<Motivacion />} path="/motivacion" />
+                        <Route element={<Encontraras />} path="/encontraras" />
                         <Route element={<h1>Not found!</h1>} />
                     </Routes>
                     <Footer />
