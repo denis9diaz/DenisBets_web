@@ -17,9 +17,7 @@
 }
 
 .imageLogo {
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
+    width: 120px;
     object-fit: cover;
     margin-left: 2rem;
     margin-top: 1rem;

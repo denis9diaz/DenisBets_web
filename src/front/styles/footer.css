@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(to bottom, #1E3F94, #000000);
+    background: linear-gradient(to bottom, #005BAC, #000000);
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
     position: relative;
@@ -73,9 +73,7 @@
 }
 
 .image-logo-footer {
-    height: 17vh;
     width: 17vh;
-    border-radius: 50%;
     object-fit: cover;
     margin-left: 5vh;
 }
@@ -100,7 +98,7 @@
     }
     .image-logo-footer {
         margin-bottom: 20px;
-        height: 15vh;
+        margin-right: 10px;
         width: 15vh;
     }
 }
@@ -113,7 +111,6 @@
 
 @media (max-width: 768px) {
     .footer .image-logo-footer {
-        height: 15vh;
         width: 15vh;
     }
 }
