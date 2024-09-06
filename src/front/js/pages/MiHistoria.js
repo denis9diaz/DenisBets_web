@@ -9,15 +9,15 @@ const MiHistoria = () => {
                 <h1 className="title-mimetodo slide-in-bottom">Mi Historia</h1>
 
                 <p className="section-text slide-in-bottom">
-                    <strong>Soy Denis Díaz, pronosticador profesional de apuestas deportivas. Hoy en día, estoy en el 1% de apostadores rentables gracias a mis pronósticos, pero mi camino no siempre ha sido fácil.</strong>
+                    <strong>Soy Denis Díaz, pronosticador profesional de apuestas deportivas.</strong> Hoy en día, <strong>estoy entre el 1% de apostadores rentables</strong> gracias a mis propios pronósticos, pero mi camino no siempre ha sido fácil.
                 </p>
 
                 <p className="section-text slide-in-bottom">
-                    <strong>Llevo 15 años en el mundo de las apuestas deportivas.</strong> Empecé a los 16 años, entrando al Sportium de mi barrio con un DNI falsificado, haciendo lo que hace la mayoría: apostaba 2€ en combinadas de 8 partidos con cuotas de 80 o 100. Acertaba una cada dos meses, si acaso. Apostaba a favoritos y grandes equipos, pero me di cuenta de que eso rara vez funciona. Ni las cuotas bajas ni las combinadas suelen funcionar. Luego traté de mejorar apostando más dinero en menos selecciones: 10€ en 5 partidos, buscando ganar 100 o 200 euros, pero también fallaba. <strong>Apostar por necesidad es un gran error.</strong> Cuando apuestas para recuperar pérdidas, acabas apostando sin control y perdiendo aún más. Durante una buena racha, aumentaba las apuestas, pensando que era invencible, pero la suerte puede irse tan rápido como llega, y perdía todo lo que había ganado.
+                    <strong>Llevo 15 años en el mundo de las apuestas deportivas.</strong> Empecé a los 16 años, entrando al Sportium de mi barrio con un DNI falsificado, haciendo lo que hace la mayoría: apostar a equipos favoritos y a los que "deberían ganar". Apostar poco dinero a apuestas combinadas para ganar mucho con poco riesgo. <strong>Apostaba por necesidad y eso es un gran error.</strong> Cuando apuestas porque necesitas dinero o para recuperar pérdidas, acabas apostando sin control y perdiendo aún más. <strong>Otro error que cometía era no llevar ningún control sobre las cantidades que apostaba.</strong> Cuando tenía una buena racha aumentaba las cantidades pensando que era invencible, pero la suerte no dura eternamente y perdía todo lo que había ganado.
                 </p>
 
                 <p className="section-text slide-in-bottom">
-                    Decidí aprender a ganar dinero de verdad con las apuestas deportivas. Me informé sobre conceptos como el stake, el valor de las cuotas, y la importancia de hacer apuestas simples en lugar de combinadas. Aunque entendía estos conceptos, seguía haciendo combinadas porque, con poco dinero, siempre prefieres apostar poco para ganar mucho. <strong>Me seguía equivocando una y otra vez</strong>.
+                    Decidí informarme sobre cómo ser rentable en apuestas deportivas y descubrí conceptos básicos como el stake, el yield, la unidad, el valor de las cuotas, y la importancia de hacer apuestas simples en lugar de combinadas. Aunque entendía estos conceptos, seguía haciendo combinadas porque cuando tienes poco dinero prefieres arriesgar poco para ganar mucho. <strong>Me seguía equivocando una y otra vez</strong>.
                 </p>
 
                 <p className="section-text slide-in-bottom">
@@ -38,7 +38,7 @@ const MiHistoria = () => {
 
                 <h2 className="cta-title slide-in-bottom">¿Te ayudo?</h2>
                 <p className="cta-text slide-in-bottom">
-                    Si te sientes identificado con lo que he contado y quieres cambiar tu situación,  <strong>puedes seguirme en mi canal gratuito de Telegram,</strong> donde subo varios pronósticos semanales, o <strong>contratar mis servicios</strong> para tener acceso a <strong>todos</strong> mis pronósticos. También puedes seguirme en Instagram y TikTok, donde doy consejos que te ayudarán a ser rentable en las apuestas deportivas.
+                    Si te sientes identificado con lo que he contado y quieres cambiar tu situación, <strong>puedes contratar mis servicios</strong> para tener acceso a <strong>todos mis pronósticos</strong> o <strong>seguirme en mi canal gratuito de Telegram,</strong> donde subo varios pronósticos semanales. También puedes seguirme en Instagram y TikTok, donde doy consejos que te ayudarán a ser rentable en las apuestas deportivas.
                 </p>
                 <div className="cta-buttons slide-in-bottom">
                     <a

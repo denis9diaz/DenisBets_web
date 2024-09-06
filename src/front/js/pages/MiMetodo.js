@@ -41,7 +41,7 @@ const MiMetodo = () => {
                 </p>
                 <h2 className="cta-title slide-in-bottom">Compruébalo tú mismo.</h2>
                 <p className="cta-text slide-in-bottom">
-                    Únete a mi canal de Telegram, donde comparto pronósticos gratuitos cada semana, o contrata mis servicios para tener acceso a <strong>todos</strong> mis pronósticos.
+                    Únete a mi canal de Telegram, donde comparto pronósticos gratuitos cada semana, o contrata mis servicios para tener acceso a <strong>todos mis pronósticos</strong>.
                 </p>
                 <div className="cta-buttons slide-in-bottom">
                     <a

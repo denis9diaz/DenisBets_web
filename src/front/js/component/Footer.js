@@ -30,7 +30,7 @@ const Footer = () => (
                 <div className="col-md-4 text-center">
                     <h5>Información</h5>
                     <ul className="list-unstyled">
-                        <li><Link to="/faqs">FAQs</Link></li>
+                        <li><Link to="/faqs">Cookies</Link></li>
                         <li><Link to="/aviso-legal">Aviso Legal</Link></li>
                         <li><Link to="/politica-privacidad">Política de Privacidad</Link></li>
                     </ul>

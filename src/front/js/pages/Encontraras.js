@@ -50,7 +50,7 @@ const Encontraras = () => {
                     </li>
                     <li className="list-item">
                         <img src={balon} alt="Balón de fútbol" className="icono-balon" />
-                        Te diré la cuota exacta a la que tienes que apostar.
+                        Te diré la <strong>cuota exacta</strong> a la que tienes que apostar.
                     </li>
                     <li className="list-item">
                         <img src={balon} alt="Balón de fútbol" className="icono-balon" />
@@ -58,11 +58,11 @@ const Encontraras = () => {
                     </li>
                     <li className="list-item">
                         <img src={balon} alt="Balón de fútbol" className="icono-balon" />
-                        <strong> Estadísticas reales</strong> que podrás comprobar tú mismo.
+                        <strong>Estadísticas reales</strong> que podrás comprobar tú mismo.
                     </li>
                     <li className="list-item">
                         <img src={balon} alt="Balón de fútbol" className="icono-balon" />
-                        100% <strong> transparencia</strong>. Jamás me verás ocultar o borrar una apuesta fallada.
+                        <strong>100% transparencia</strong>. Jamás me verás ocultar o borrar una apuesta fallada.
                     </li>
                 </ul>
             </div>
