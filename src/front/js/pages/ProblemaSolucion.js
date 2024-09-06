@@ -23,7 +23,7 @@ const ProblemaSolucion = () => {
                         text: (
                             <>
                                 <p className="parrafo-ps">
-                                    Es frustrante, ¿verdad? Pasas horas analizando estadísticas, revisando las últimas noticias de los equipos y jugadores, e incluso sigues los consejos de diferentes expertos.
+                                    Es frustrante, ¿verdad? Pasas horas analizando estadísticas, revisando las últimas noticias de los equipos y jugadores, e incluso sigues los consejos de diferentes "expertos".
                                 </p>
                                 <p className="parrafo-ps">
                                     Sin embargo, cuando llega el momento de la verdad, los resultados no son los que esperabas. Las apuestas deportivas suelen ser impredecibles y sin la estrategia correcta, tus esfuerzos pueden verse desperdiciados.
