@@ -14,7 +14,7 @@ const Footer = () => (
 
                 {/* Segunda Columna: Redes Sociales */}
                 <div className="col-md-4 text-center social-media">
-                    <h5>Sígueme</h5>
+                    <h5 className="title-footer mt-4">Sígueme</h5>
                     <a href="https://t.me/mi_canal" target="_blank" rel="noopener noreferrer">
                         <i className="fab fa-telegram"></i>
                     </a>
@@ -28,7 +28,7 @@ const Footer = () => (
 
                 {/* Tercera Columna: Información Adicional */}
                 <div className="col-md-4 text-center">
-                    <h5>Información</h5>
+                    <h5 className="title-footer mt-4">Información</h5>
                     <ul className="list-unstyled">
                         <li><Link to="/faqs">Cookies</Link></li>
                         <li><Link to="/aviso-legal">Aviso Legal</Link></li>

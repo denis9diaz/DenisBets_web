@@ -29,7 +29,7 @@ const MiHistoria = () => {
                 </p>
 
                 <p className="section-text slide-in-bottom">
-                    Después de dos años verificando varios métodos de análisis, y con la ayuda de otros expertos del sector, <strong>ahora tengo varios métodos con un 60-70% de acierto a cuota media de 1.72</strong>, que me hacen ganar dinero mes a mes. Ahora me da igual fallar una apuesta porque sé que soy rentable y que, a fin de mes, voy a ganar dinero. No necesito recuperar si pierdo un día y controlo a la perfección las cantidades que apuesto para maximizar ganancias con cada acierto y minimizar las pérdidas con los fallos.
+                    Después de dos años verificando varios métodos de análisis, y con la ayuda de otros expertos del sector, <strong>ahora tengo varios métodos con un 65-75% de acierto a cuota media de 1.72</strong>, que me hacen ganar dinero mes a mes. Ahora me da igual fallar una apuesta porque sé que soy rentable y que, a fin de mes, voy a ganar dinero. No necesito recuperar si pierdo un día y controlo a la perfección las cantidades que apuesto para maximizar ganancias con cada acierto y minimizar las pérdidas con los fallos.
                 </p>
 
                 <p className="section-text slide-in-bottom">
