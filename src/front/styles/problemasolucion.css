@@ -135,6 +135,10 @@
     background: linear-gradient(45deg, #5CE8A5, #1E3F94);
 }
 
+.parrafo-ps {
+    color: #010511;
+}
+
 @media (max-width: 768px) {
     .card {
         max-height: none;

@@ -11,7 +11,7 @@
     padding: 2vh 5%;
     color: whitesmoke;
     font-family: 'Poppins', sans-serif;
-    opacity: 0; /* Inicia oculto */
+    opacity: 0;
     transition: opacity 1s ease-in-out, transform 1s ease-in-out;
     transform: translateY(20px);
 }

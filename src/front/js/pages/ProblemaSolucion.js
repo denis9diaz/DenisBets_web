@@ -22,13 +22,13 @@ const ProblemaSolucion = () => {
                         buttonText: ["Ver menos", "Ver por qué"],
                         text: (
                             <>
-                                <p>
+                                <p className="parrafo-ps">
                                     Es frustrante, ¿verdad? Pasas horas analizando estadísticas, revisando las últimas noticias de los equipos y jugadores, e incluso sigues los consejos de diferentes expertos.
                                 </p>
-                                <p>
+                                <p className="parrafo-ps">
                                     Sin embargo, cuando llega el momento de la verdad, los resultados no son los que esperabas. Las apuestas deportivas suelen ser impredecibles y sin la estrategia correcta, tus esfuerzos pueden verse desperdiciados.
                                 </p>
-                                <p>
+                                <p className="parrafo-ps">
                                     Esto deja una sensación de impotencia y de pérdida.
                                 </p>
                             </>
@@ -41,13 +41,13 @@ const ProblemaSolucion = () => {
                         buttonText: ["Ver menos", "Ver consecuencias"],
                         text: (
                             <>
-                                <p>
+                                <p className="parrafo-ps">
                                     Si continúas apostando sin un plan bien estructurado, es probable que sigas viendo cómo tus fondos disminuyen semana tras semana.
                                 </p>
-                                <p>
+                                <p className="parrafo-ps">
                                     Cada apuesta fallida no solo afecta a tu cuenta bancaria, sino también a tu confianza y disfrute del deporte.
                                 </p>
-                                <p>
+                                <p className="parrafo-ps">
                                     Al final, podrías sentirte tentado a abandonar por completo, perdiendo la oportunidad de hacer de las apuestas deportivas una actividad rentable y emocionante.
                                 </p>
                             </>
@@ -60,13 +60,13 @@ const ProblemaSolucion = () => {
                         buttonText: ["Ver menos", "Ver solución"],
                         text: (
                             <>
-                                <p>
+                                <p className="parrafo-ps">
                                     Imagina tener acceso a pronósticos basados en análisis estadísticos profundos y estrategias comprobadas que te guíen en cada apuesta que realices. No más suposiciones, no más pérdidas constantes.
                                 </p>
-                                <p>
+                                <p className="parrafo-ps">
                                     En DenisBets combino mi experiencia en el análisis deportivo con técnicas avanzadas de predicción mediante probabilidad, para ofrecerte pronósticos que realmente funcionan.
                                 </p>
-                                <p>
+                                <p className="parrafo-ps">
                                     Aumentarás tus probabilidades de ganar, y apostarás con la misma confianza que apuesto yo, sabiendo que puedes perder apuestas (y las perderás) pero que a final de mes estarás en positivo.
                                 </p>
                             </>

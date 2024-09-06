@@ -1,6 +1,6 @@
 .mihistoria {
     min-height: 100vh;
-    background: #01A2F6;
+    background: linear-gradient(to bottom, #01A2F6, #01549c);
     color: whitesmoke;
     padding: 20vh 2rem;
     font-family: 'Poppins', sans-serif;
