@@ -28,7 +28,8 @@
 
 .section-title {
     font-size: 1.8rem;
-    margin: 1rem 0;
+    margin-bottom: 0.7rem;
+    margin-top: 2rem;
     color: #1F86BC;
 }
 
@@ -36,14 +37,11 @@
 .section-text2 {
     font-size: 1.1rem;
     line-height: 1.6;
-    margin-top: 0.5rem;
-    margin-bottom: 1.8rem;
 }
 
 .steps-list,
 .summary-list {
     text-align: left;
-    margin: 1rem 0;
 }
 
 .step-item,
