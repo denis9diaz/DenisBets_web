@@ -41,33 +41,33 @@ const Encontraras = () => {
                 <h2 className="title-encontraras slide-in-bottom">¿Qué encontrarás si contratas mis servicios?</h2>
                 <ul className="encontraras-list slide-in-bottom">
                     <li className="list-item">
-                        <img src={balon} alt="Balón de fútbol" className="icono-balon" />
+                        <img src={balon} alt="Balón de fútbol representando apuestas de fútbol" className="icono-balon" />
                         Las apuestas serán únicamente de <strong> fútbol</strong>.
                     </li>
                     <li className="list-item">
-                        <img src={balon} alt="Balón de fútbol" className="icono-balon" />
+                        <img src={balon} alt="Balón de fútbol representando apuestas en directo" className="icono-balon" />
                         Alrededor del <strong> 90%</strong> de las apuestas las mandaré antes del partido para que las hagas <strong> en directo</strong>.
                     </li>
                     <li className="list-item">
-                        <img src={balon} alt="Balón de fútbol" className="icono-balon" />
+                        <img src={balon} alt="Balón de fútbol representando la cuota exacta de apuesta" className="icono-balon" />
                         Te diré la <strong>cuota exacta</strong> a la que tienes que apostar.
                     </li>
                     <li className="list-item">
-                        <img src={balon} alt="Balón de fútbol" className="icono-balon" />
+                        <img src={balon} alt="Balón de fútbol representando apuestas pre-partido" className="icono-balon" />
                         El <strong> 10%</strong> restante serán <strong> pre-partido</strong>.
                     </li>
                     <li className="list-item">
-                        <img src={balon} alt="Balón de fútbol" className="icono-balon" />
+                        <img src={balon} alt="Balón de fútbol representando estadísticas reales" className="icono-balon" />
                         <strong>Estadísticas reales</strong> que podrás comprobar tú mismo.
                     </li>
                     <li className="list-item">
-                        <img src={balon} alt="Balón de fútbol" className="icono-balon" />
+                        <img src={balon} alt="Balón de fútbol representando transparencia en apuestas" className="icono-balon" />
                         <strong>100% transparencia</strong>. Jamás me verás ocultar o borrar una apuesta fallada.
                     </li>
                 </ul>
             </div>
             <div className="encontraras-image">
-                <img src={bundes} alt="Imagen de servicios" />
+                <img src={bundes} alt="Imagen representativa de los servicios de apuestas deportivas" />
             </div>
         </div>
     );
