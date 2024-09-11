@@ -38,7 +38,7 @@ const Motivacion = () => {
             ref={motivacionRef}
         >
             <div className="content-container">
-                <img src={portada} alt="portada" className="image-portada" />
+                <img src={portada} alt="Denis Díaz explicando su método para apuestas deportivas rentables" className="image-portada" />
                 <div className="text-container">
                     <p className="parrafo-descripcion">
                         Soy <strong>Denis Díaz</strong>, y estoy aquí para ayudarte a conseguir <strong>ser rentable como apostador</strong>.
