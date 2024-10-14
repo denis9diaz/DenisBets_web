@@ -1,0 +1,100 @@
+.accion {
+  padding-bottom: 3vh;
+  min-height: 11vh;
+}
+
+.styled-button {
+  position: relative;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #171717;
+  background: linear-gradient(45deg, #a6f8da, #03e08f);
+  border-radius: 9999px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #00d988;
+  font-family: 'Poppins', sans-serif;
+}
+
+.styled-button:hover {
+  position: relative;
+  padding: 1rem 2rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(45deg, #1ab97f, #077c51);
+  border-radius: 9999px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 10px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.2s ease;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #00d988;
+  font-family: 'Poppins', sans-serif;
+}
+
+.styled-button::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  background: linear-gradient(45deg, #18d892, #049b64);
+  z-index: -1;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+  opacity: 1;
+}
+
+.styled-button:active {
+  transform: translateY(2px);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7), 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.styled-button .inner-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #00ffa0, #00e594);
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.7);
+  border: 1px solid #00d988;
+  transition: all 0.2s ease;
+}
+
+.styled-button .inner-button::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  right: -1px;
+  bottom: -1px;
+  left: -1px;
+  background: linear-gradient(to bottom, #00e594, #00d988);
+  z-index: -1;
+  border-radius: 9999px;
+  transition: all 0.2s ease;
+  opacity: 1;
+}
+
+.styled-button .inner-button .icon {
+  filter: drop-shadow(0 10px 20px rgba(0, 255, 160, 0.7))
+    drop-shadow(0 0 4px rgba(0, 255, 160, 1));
+  transition: all 0.4s ease-in-out;
+}
+
+.styled-button .inner-button .icon:hover {
+  filter: drop-shadow(0 10px 20px rgba(0, 255, 160, 1))
+    drop-shadow(0 0 20px rgba(0, 255, 160, 0.75));
+  transform: rotate(-35deg);
+}

@@ -1,0 +1,141 @@
+.servicios {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #01A2F5, #01549c);
+    padding-top: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.row {
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.servicios-card {
+    background: #00ffa0;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 0.5vmin solid #05060f;
+    box-shadow: 0.4rem 0.4rem #05060f;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    min-height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.servicios-card .pricing-block-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.servicios-plan {
+    color: #05060f;
+    font-size: 1.3rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.servicios-price {
+    display: flex;
+    color: #05060f;
+    font-size: 1.8rem;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.servicios-note {
+    opacity: 0.8;
+}
+
+.servicios-check-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    padding: 0 1rem;
+}
+
+.servicios-check-list-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.servicios-button-want {
+    background: linear-gradient(45deg, #7c68fc, #533eda);
+    color: #ffffff;
+    border: 2px solid #05060f;
+    padding: 0.75rem 1.25rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.servicios-button-want:hover {
+    background-color: #1f6acb;
+    transform: scale(1.05);
+}
+
+@media (max-width: 1000px) {
+    .servicios-card {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+.servicios-fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: serviciosFadeInUp 1s ease-out forwards;
+}
+
+.servicios-fade-in:nth-of-type(1) {
+    animation-delay: 0.5s;
+}
+
+.servicios-fade-in:nth-of-type(2) {
+    animation-delay: 1s;
+}
+
+.servicios-fade-in:nth-of-type(3) {
+    animation-delay: 1.5s;
+}
+
+@keyframes serviciosFadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.parrafo-servicios {
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+
+.div-parrafos {
+    margin-bottom: 6vh;
+}
