@@ -1,0 +1,207 @@
+.consejos-container {
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #01A2F6, #01549c);
+    padding-top: 20vh;
+    padding-bottom: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.consejos-content {
+    max-width: 1000px;
+    background: #ffffff;
+    color: #000000;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title-mimetodo {
+    font-size: 2.5rem;
+    color: #0d415e;
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.7rem;
+    margin-top: 2rem;
+    color: #1F86BC;
+}
+
+.section-text,
+.section-text2 {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.steps-list,
+.summary-list {
+    text-align: left;
+}
+
+.step-item,
+.summary-item {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 0.5rem;
+}
+
+.final-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.cta-title {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    color: #1F86BC;
+}
+
+.cta-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.cta-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+}
+
+.cta-button {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #1F86BC;
+    padding: 0.75rem 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.cta-button:hover {
+    background-color: #004d7a;
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+.telegram-button {
+    background-color: #0088cc;
+    background: linear-gradient(45deg, #3aa3d8, #0088cc);
+}
+
+.services-button {
+    background: linear-gradient(45deg, #0dbb7b, #049b64);
+}
+
+.final-para {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    color: #1F86BC;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cta-button {
+        width: 100%;
+        max-width: 300px;
+        margin-bottom: 1rem;
+    }
+}
+
+/* Animaciones */
+@keyframes slideInFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInFromRight {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.slide-in-bottom {
+    animation: slideInFromBottom 1s ease-out forwards;
+}
+
+.slide-in-top {
+    animation: slideInFromTop 1s ease-out forwards;
+}
+
+.slide-in-left {
+    animation: slideInFromLeft 1s ease-out forwards;
+}
+
+.slide-in-right {
+    animation: slideInFromRight 1s ease-out forwards;
+}
+
+.slide-in-bottom:nth-of-type(1) {
+    animation-delay: 0.3s;
+}
+
+.slide-in-bottom:nth-of-type(2) {
+    animation-delay: 0.6s;
+}
+
+.slide-in-bottom:nth-of-type(3) {
+    animation-delay: 0.9s;
+}
+
+.slide-in-bottom:nth-of-type(4) {
+    animation-delay: 1.2s;
+}
