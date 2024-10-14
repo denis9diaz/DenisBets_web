@@ -1,81 +1,86 @@
-# WebApp boilerplate with React JS and Flask API
+<!-- Descripción -->
+<h1 align="center">DenisBets</h1>
+<h3 align="center">Plataforma personal de tipster donde ofrezco servicios de asesoramiento y pronósticos deportivos</h3>
+<h4>DenisBets está diseñada para ayudarte a optimizar tus apuestas deportivas con análisis basados en mi experiencia, ofreciendo soluciones rentables y confiables para todos mis clientes.</h4>
 
-Build web applications using React.js for the front end and python/flask for your backend API.
+<!-- Imagen Principal -->
+<p align="center">
+    <img src="https://res.cloudinary.com/dxzhssh9m/image/upload/v1728914440/Captura_de_pantalla_2024-10-14_153413_gc6nhr.png" alt="DenisBets" width="100%"/>
+</p>
 
-- Documentation can be found here: https://start.4geeksacademy.com/starters/react-flask
-- Here is a video on [how to use this template](https://www.loom.com/share/f37c6838b3f1496c95111e515e83dd9b)
-- Integrated with Pipenv for package managing.
-- Fast deployment to heroku [in just a few steps here](https://start.4geeksacademy.com/backend/deploy-heroku-posgres).
-- Use of .env file.
-- SQLAlchemy integration for database abstraction.
+<!-- Funcionalidades -->
+1. **Home**:
+    - **Descripción**: Explicación breve de lo que es DenisBets.
+    - **Hero**: 
+        - **Problema**: Explicación del problema común en el mundo de las apuestas.
+        - **Consecuencias**: Consecuencias negativas de no tener un buen asesoramiento.
+        - **Solución**: Cómo DenisBets ofrece la solución ideal a estos problemas.
+    - **Sección Personal**: Imagen y una frase que describe lo que hago.
+    - **Contratar Servicios**: Descripción de lo que obtendrás si contratas mis servicios.
+    <p align="center">
+        <img src="https://res.cloudinary.com/dxzhssh9m/image/upload/v1728914440/Captura_de_pantalla_2024-10-14_153448_qvpcn9.png" alt="Hero" width="650px"/>
+        <img src="https://res.cloudinary.com/dxzhssh9m/image/upload/v1728914440/Captura_de_pantalla_2024-10-14_153521_eluawq.png" alt="Servicios" width="650px"/>
+    </p>
 
-### 1) Installation:
+2. **Navbar**:
+    - Contiene las siguientes secciones:
+        - Servicios
+        - Mi Método
+        - Redes
+        - Mi Historia
+        - Contacto
 
-> If you use Github Codespaces (recommended) or Gitpod this template will already come with Python, Node and the Posgres Database installed. If you are working locally make sure to install Python 3.10, Node 
+3. **Servicios**:
+    - Muestra tres tarjetas con los tipos de servicios que ofrezco. Cada tarjeta describe un servicio en detalle, para que los usuarios puedan entender qué recibirán al contratar. Al pulsar cada una de ellas te lleva a la plataforma de pago para que contrates el servicio. 
+    <p align="center">
+        <img src="https://res.cloudinary.com/dxzhssh9m/image/upload/v1728914439/Captura_de_pantalla_2024-10-14_153643_njxqda.png" alt="Servicios" width="650px"/>
+    </p>
 
-It is recomended to install the backend first, make sure you have Python 3.8, Pipenv and a database engine (Posgress recomended)
+4. **Mi Método**:
+    - Explicación detallada de mi método para obtener rentabilidad en las apuestas. Aquí desgloso cómo tomo decisiones basadas en estadísticas, datos históricos y tendencias para asegurar un enfoque rentable.
 
-1. Install the python packages: `$ pipenv install`
-2. Create a .env file based on the .env.example: `$ cp .env.example .env`
-3. Install your database engine and create your database, depending on your database you have to create a DATABASE_URL variable with one of the possible values, make sure you replace the valudes with your database information:
+5. **Redes**:
+    - Tres tarjetas que contienen enlaces a mis principales redes sociales, donde los usuarios pueden seguirme y mantenerse al día con mis pronósticos y actualizaciones.
+    <p align="center">
+        <img src="https://res.cloudinary.com/dxzhssh9m/image/upload/v1728914439/Captura_de_pantalla_2024-10-14_153717_qmkfca.png" alt="Redes Sociales" width="650px"/>
+    </p>
 
-| Engine    | DATABASE_URL                                        |
-| --------- | --------------------------------------------------- |
-| SQLite    | sqlite:////test.db                                  |
-| MySQL     | mysql://username:password@localhost:port/example    |
-| Postgress | postgres://username:password@localhost:5432/example |
+6. **Mi Historia**:
+    - Breve biografía donde cuento mi trayectoria, desde mis inicios en las apuestas deportivas hasta convertirme en un tipster profesional. Esta sección incluye detalles sobre los desafíos que superé y cómo desarrollé mi método único.
+    <p align="center">
+        <img src="[URL de la imagen de mi historia]" alt="Mi Historia" width="650px"/>
+    </p>
 
-4. Migrate the migrations: `$ pipenv run migrate` (skip if you have not made changes to the models on the `./src/api/models.py`)
-5. Run the migrations: `$ pipenv run upgrade`
-6. Run the application: `$ pipenv run start`
+7. **Contacto**:
+    - Formulario de contacto que envía correos electrónicos a mi dirección corporativa utilizando Flask Mail. Los usuarios pueden comunicarse directamente conmigo para consultas o solicitudes de información adicional.
+    <p align="center">
+        <img src="https://res.cloudinary.com/dxzhssh9m/image/upload/v1728914439/Captura_de_pantalla_2024-10-14_153734_bdhglh.png" alt="Formulario de Contacto" width="650px"/>
+    </p>
 
-> Note: Codespaces users can connect to psql by typing: `psql -h localhost -U gitpod example`
+3. **Footer**:
+    - **Enlaces**: Enlaces rápidos a redes sociales, formulario de contacto y más información adicional.
 
-### Undo a migration
+    <p align="center">
+        <img src="https://res.cloudinary.com/dxzhssh9m/image/upload/v1728914440/Captura_de_pantalla_2024-10-14_153613_ruy0rd.png" alt="Footer" width="650px"/>
+    </p>
 
-You are also able to undo a migration by running
+<!-- Tecnologías utilizadas -->
+<h3 align="left">Tecnologías utilizadas:</h3>
 
-```sh
-$ pipenv run downgrade
-```
+<!-- Frontend -->
+<h4 align="left">Frontend</h4>
+<p align="left">
+    - Javascript, React, Bootstrap, CSS
+</p>
 
-### Backend Populate Table Users
+<!-- Backend -->
+<h4 align="left">Backend</h4>
+<p align="left">
+    - Python, Flask, Flask-Mail
+</p>
 
-To insert test users in the database execute the following command:
-
-```sh
-$ flask insert-test-users 5
-```
-
-And you will see the following message:
-
-```
-  Creating test users
-  test_user1@test.com created.
-  test_user2@test.com created.
-  test_user3@test.com created.
-  test_user4@test.com created.
-  test_user5@test.com created.
-  Users created successfully!
-```
-
-### **Important note for the database and the data inside it**
-
-Every Github codespace environment will have **its own database**, so if you're working with more people eveyone will have a different database and different records inside it. This data **will be lost**, so don't spend too much time manually creating records for testing, instead, you can automate adding records to your database by editing ```commands.py``` file inside ```/src/api``` folder. Edit line 32 function ```insert_test_data``` to insert the data according to your model (use the function ```insert_test_users``` above as an example). Then, all you need to do is run ```pipenv run insert-test-data```.
-
-### Front-End Manual Installation:
-
--   Make sure you are using node version 14+ and that you have already successfully installed and runned the backend.
-
-1. Install the packages: `$ npm install`
-2. Start coding! start the webpack dev server `$ npm run start`
-
-## Publish your website!
-
-This boilerplate it's 100% read to deploy with Render.com and Heroku in a matter of minutes. Please read the [official documentation about it](https://start.4geeksacademy.com/deploy).
-
-### Contributors
-
-This template was built as part of the 4Geeks Academy [Coding Bootcamp](https://4geeksacademy.com/us/coding-bootcamp) by [Alejandro Sanchez](https://twitter.com/alesanchezr) and many other contributors. Find out more about our [Full Stack Developer Course](https://4geeksacademy.com/us/coding-bootcamps/part-time-full-stack-developer), and [Data Science Bootcamp](https://4geeksacademy.com/us/coding-bootcamps/datascience-machine-learning).
-
-You can find other templates and resources like this at the [school github page](https://github.com/4geeksacademy/).
+<!-- Seguridad de la Plataforma -->
+<h3 align="left">Seguridad de la Plataforma:</h3>
+<ul>
+    <li>Implementación de Flask-Mail para la gestión segura de correos electrónicos desde el formulario de contacto.</li>
+</ul>
