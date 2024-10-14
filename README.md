@@ -47,9 +47,6 @@
 
 6. **Mi Historia**:
     - Breve biografía donde cuento mi trayectoria, desde mis inicios en las apuestas deportivas hasta convertirme en un tipster profesional. Esta sección incluye detalles sobre los desafíos que superé y cómo desarrollé mi método único.
-    <p align="center">
-        <img src="[URL de la imagen de mi historia]" alt="Mi Historia" width="650px"/>
-    </p>
 
 7. **Contacto**:
     - Formulario de contacto que envía correos electrónicos a mi dirección corporativa utilizando Flask Mail. Los usuarios pueden comunicarse directamente conmigo para consultas o solicitudes de información adicional.
