@@ -1,0 +1,47 @@
+.hero {
+    color: whitesmoke;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 17vh;
+    animation: fadeInUp 2s ease-in-out forwards;
+    font-family: 'Poppins', sans-serif;
+    gap: 2vh;
+}
+
+.title-hero {
+    font-size: 4.5vh;
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+    text-shadow: 
+        1px 1px 0 #b6c2bd,
+        2px 2.5px 3px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.05em;
+    margin-bottom: 1vh;
+    opacity: 0;
+    animation: fadeInUp 1s ease-in-out 0.5s forwards;
+}
+
+.subtitle-hero {
+    padding-top: 0;
+    font-size: 3.5vh; 
+    color: #84f3ca;
+    opacity: 0;
+    animation: fadeInUp 1.4s ease-in-out 1s forwards;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2vh;
+}
+
+.description-hero {
+    max-width: 100%;
+    font-size: 2.2vh;
+    color: whitesmoke;
+    line-height: 1.6;
+    opacity: 0;
+    animation: fadeInUp 1.4s ease-in-out 1.5s forwards;
+    text-align: center;
+    margin: 0 auto;
+}
