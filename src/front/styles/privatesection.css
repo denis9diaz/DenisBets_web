@@ -1,0 +1,12 @@
+.private-section {
+    min-height: 100vh;
+    background: #01A2F6;
+    background: linear-gradient(to bottom, #01A2F6, #01549c);
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+}
