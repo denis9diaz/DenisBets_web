@@ -1,12 +1,138 @@
 .private-section {
     min-height: 100vh;
-    background: #01A2F6;
     background: linear-gradient(to bottom, #01A2F6, #01549c);
-    padding-top: 20vh;
-    padding-bottom: 5vh;
+    padding: 15vh 5vw 5vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     font-family: 'Poppins', sans-serif;
     color: whitesmoke;
+    text-align: center;
+}
+
+.private-section-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pronostico-card {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 800px;
+    text-align: left;
+    color: #333;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+}
+
+.fecha {
+    font-size: 14px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.partido-pronostico {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.partido, .pronostico {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000911;
+    margin-bottom: 5px;
+}
+
+.cuota, .stake {
+    font-size: 16px;
+    font-weight: bold;
+    color: #008000;
+    margin-bottom: 5px;
+}
+
+.notas {
+    font-size: 14px;
+    font-style: italic;
+    color: #666;
+    margin-top: 10px;
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para el badge de estado (PRE o LIVE) */
+.badge {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.pre {
+    background-color: #0174DF;
+    color: white;
+}
+
+.live {
+    background-color: #a1a1a1;
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .pronostico-card {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .private-section-title {
+        font-size: 24px;
+    }
+
+    .partido, .pronostico {
+        font-size: 20px;
+    }
+}
+
+/* Agregar estilo al formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input, form select {
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px;
+    background-color: #0174DF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #01549c;
 }
