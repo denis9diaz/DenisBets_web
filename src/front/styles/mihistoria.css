@@ -7,14 +7,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 1s ease, transform 1s ease;
-}
-
-.mihistoria.fade-in {
-    opacity: 1;
-    transform: translateY(0);
 }
 
 .mihistoria-content {
@@ -25,7 +17,6 @@
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     opacity: 0;
-    transform: translateY(20px);
     transition: opacity 1s ease, transform 1s ease;
 }
 
