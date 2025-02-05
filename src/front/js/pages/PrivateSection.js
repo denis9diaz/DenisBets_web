@@ -36,12 +36,10 @@ const PrivateSection = () => {
                             <span className="icono-pronostico"><img src={pick} className="pick-icon"></img></span>
                             {pronostico.pronostico}
                         </h3>
-
                         <p className="cuota">
                             <span className="icono-cuota"><img src={cuota} className="cuota-icon"></img></span>
                             @<strong>{parseFloat(pronostico.cuota).toFixed(2)}</strong>
                         </p>
-
                         <p className="stake">
                             <span className="icono-stake"><img src={stake} className="stake-icon"></img></span>
                             Stake <strong>{pronostico.stake}</strong>
