@@ -1,3 +1,17 @@
+@keyframes fadeInComponent {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fade-in-component {
+    animation: fadeInComponent 2s ease-in-out forwards;
+    opacity: 1;
+}
+
 .consejos-container {
     min-height: 100vh;
     background: linear-gradient(to bottom, #01A2F6, #01549c);
@@ -17,6 +31,8 @@
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    animation: fadeInComponent 1s ease-in-out forwards;
 }
 
 .title-mimetodo {
@@ -127,81 +143,9 @@
         max-width: 300px;
         margin-bottom: 1rem;
     }
-}
 
-/* Animaciones */
-@keyframes slideInFromBottom {
-    from {
-        opacity: 0;
-        transform: translateY(30px);
+    .consejos-content {
+        margin-left: 5px;
+        margin-right: 5px;
     }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideInFromTop {
-    from {
-        opacity: 0;
-        transform: translateY(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-@keyframes slideInFromLeft {
-    from {
-        opacity: 0;
-        transform: translateX(-30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-@keyframes slideInFromRight {
-    from {
-        opacity: 0;
-        transform: translateX(30px);
-    }
-    to {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
-.slide-in-bottom {
-    animation: slideInFromBottom 1s ease-out forwards;
-}
-
-.slide-in-top {
-    animation: slideInFromTop 1s ease-out forwards;
-}
-
-.slide-in-left {
-    animation: slideInFromLeft 1s ease-out forwards;
-}
-
-.slide-in-right {
-    animation: slideInFromRight 1s ease-out forwards;
-}
-
-.slide-in-bottom:nth-of-type(1) {
-    animation-delay: 0.3s;
-}
-
-.slide-in-bottom:nth-of-type(2) {
-    animation-delay: 0.6s;
-}
-
-.slide-in-bottom:nth-of-type(3) {
-    animation-delay: 0.9s;
-}
-
-.slide-in-bottom:nth-of-type(4) {
-    animation-delay: 1.2s;
 }
