@@ -51,9 +51,9 @@
 }
 
 .cuota, .stake {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
-    color: #008000;
+    color: #000911;
     margin-bottom: 5px;
 }
 
@@ -67,7 +67,6 @@
     border-radius: 5px;
 }
 
-/* Estilo para el badge de estado (PRE o LIVE) */
 .badge {
     font-size: 14px;
     font-weight: bold;
@@ -75,6 +74,7 @@
     border-radius: 5px;
     display: inline-block;
     margin-top: 10px;
+    width: 200px;
 }
 
 .pre {
@@ -87,7 +87,13 @@
     color: white;
 }
 
-/* Responsive */
+.pick-icon, .stake-icon, .cuota-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    object-fit: contain;
+}
+
 @media (max-width: 768px) {
     .pronostico-card {
         width: 95%;
@@ -101,38 +107,4 @@
     .partido, .pronostico {
         font-size: 20px;
     }
-}
-
-/* Agregar estilo al formulario */
-form {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 600px;
-    margin-top: 20px;
-}
-
-form label {
-    font-weight: bold;
-}
-
-form input, form select {
-    padding: 8px;
-    margin: 5px 0;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-form button {
-    padding: 10px;
-    background-color: #0174DF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-form button:hover {
-    background-color: #01549c;
 }
