@@ -81,3 +81,33 @@
 <ul>
     <li>Implementación de Flask-Mail para la gestión segura de correos electrónicos desde el formulario de contacto.</li>
 </ul>
+
+---
+
+## 🚀 Cómo levantar el proyecto
+
+### Backend (Flask)
+```bash
+$env:FLASK_APP = "src/app.py"
+flask run
+```
+
+### Frontend (React)
+En otra terminal:
+```bash
+npm start
+```
+
+Abre el navegador en `http://localhost:3000`
+
+
+### 🎯 Acceso a la aplicación
+Una vez levantados ambos servidores, abre tu navegador en:
+```
+http://localhost:3000
+```
+
+### ⚙️ Comandos útiles
+- **Detener los servidores**: Presiona `CTRL + C` en cada terminal
+- **Ver logs del backend**: Revisa la terminal donde corre Flask
+- **Ver logs del frontend**: Revisa la terminal donde corre npm
